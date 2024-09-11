@@ -12,6 +12,8 @@ function displayMenuItems(menu) {
    for (const [category, items] of Object.entries(menu)) {
     const categoryHeading = document.createElement('h3');
         categoryHeading.textContent = category;
+
+     menuContainer.appendChild(categoryHeading);
             
 }
 
