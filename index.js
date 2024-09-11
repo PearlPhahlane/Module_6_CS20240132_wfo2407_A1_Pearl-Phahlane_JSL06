@@ -25,7 +25,7 @@ function displayMenuItems(menu) {
 
         categoryList.appendChild(listItem);
      });
-            
+      menuContainer.appendChild(categoryList);
 }
 
 // Callback function for adding an item to the order
