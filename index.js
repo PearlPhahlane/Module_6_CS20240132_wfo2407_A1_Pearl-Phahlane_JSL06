@@ -14,6 +14,8 @@ function displayMenuItems(menu) {
         categoryHeading.textContent = category;
 
      menuContainer.appendChild(categoryHeading);
+
+     const categoryList = document.createElement('ul');
             
 }
 
