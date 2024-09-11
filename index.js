@@ -32,6 +32,9 @@ function displayMenuItems(menu) {
 function addToOrder(itemName) {
     const orderItemsList = document.getElementById('order-items');
     const orderTotalElem = document.getElementById('order-total');
+
+    const orderItem = document.createElement('li');
+    orderItem.textContent = itemName;
 }
 
 // Function to initialize the menu system
