@@ -10,7 +10,8 @@ function displayMenuItems(menu) {
    const menuContainer = document.getElementById("menu");
 
    for (const [category, items] of Object.entries(menu)) {
-    
+    const categoryHeading = document.createElement('h3');
+        categoryHeading.textContent = category;
             
 }
 
