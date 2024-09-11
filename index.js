@@ -16,6 +16,8 @@ function displayMenuItems(menu) {
      menuContainer.appendChild(categoryHeading);
 
      const categoryList = document.createElement('ul');
+
+     items.forEach(item => {}
             
 }
 
