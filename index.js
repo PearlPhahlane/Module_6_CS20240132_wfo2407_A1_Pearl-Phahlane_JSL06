@@ -8,6 +8,9 @@ const menu = {
 // Function to display menu items by category
 function displayMenuItems(menu) {
    const menuContainer = document.getElementById("menu");
+
+   for (const [category, items] of Object.entries(menu)) {
+    
             
 }
 
