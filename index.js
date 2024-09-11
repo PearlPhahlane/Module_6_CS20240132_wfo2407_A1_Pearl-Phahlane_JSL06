@@ -19,7 +19,7 @@ function displayMenuItems(menu) {
 
      items.forEach(item => {
         const listItem = document.createElement('li');
-        
+        listItem.textContent = item;
      });
             
 }
