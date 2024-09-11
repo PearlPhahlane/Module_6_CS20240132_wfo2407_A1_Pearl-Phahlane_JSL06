@@ -41,6 +41,7 @@ function addToOrder(itemName) {
     const currentTotal = parseFloat(orderTotalElem.textContent);
     const itemPrice = 90;
     const newTotal = currentTotal + itemPrice;
+    orderTotalElem.textContent = newTotal.toFixed(2);
     
 }
 
