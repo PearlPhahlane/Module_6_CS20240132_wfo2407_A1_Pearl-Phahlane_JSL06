@@ -35,6 +35,10 @@ function addToOrder(itemName) {
 
     const orderItem = document.createElement('li');
     orderItem.textContent = itemName;
+
+    orderItemsList.appendChild(orderItem);
+    const currentTotal = parseFloat(orderTotalElem.textContent);
+    
 }
 
 // Function to initialize the menu system
