@@ -17,7 +17,10 @@ function displayMenuItems(menu) {
 
      const categoryList = document.createElement('ul');
 
-     items.forEach(item => {}
+     items.forEach(item => {
+        const listItem = document.createElement('li');
+        
+     });
             
 }
 
