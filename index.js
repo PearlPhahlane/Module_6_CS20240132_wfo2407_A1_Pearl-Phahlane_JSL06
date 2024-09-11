@@ -39,7 +39,8 @@ function addToOrder(itemName) {
     orderItemsList.appendChild(orderItem);
 
     const currentTotal = parseFloat(orderTotalElem.textContent);
-    const itemPrice = 60;
+    const itemPrice = 90;
+    const newTotal = currentTotal + itemPrice;
     
 }
 
