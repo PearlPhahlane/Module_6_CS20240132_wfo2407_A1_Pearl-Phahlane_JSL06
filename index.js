@@ -7,7 +7,7 @@ const menu = {
 
 // Function to display menu items by category
 function displayMenuItems(menu) {
-   const menuContainer = document.getElementById("menu");
+    const menuContainer = document.getElementById("menu");
 
    for (const [category, items] of Object.entries(menu)) {
     const categoryHeading = document.createElement('h3');
@@ -26,6 +26,7 @@ function displayMenuItems(menu) {
         categoryList.appendChild(listItem);
      });
       menuContainer.appendChild(categoryList);
+    }
 }
 
 // Callback function for adding an item to the order
@@ -46,9 +47,12 @@ function addToOrder(itemName) {
 }
 
 // Function to initialize the menu system
-function initMenuSystem(menu) {
+function initMenuSystem() {
     displayMenuItems(menu);
 }
 
 // Start the menu system by calling the init function
-initMenuSystem(menu);
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("DOM fully loaded and parsed");
+  initMenuSystem();
+});
